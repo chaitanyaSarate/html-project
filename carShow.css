@@ -1,0 +1,56 @@
+body{
+    
+}
+h2{
+    color:blue;
+}
+.test{
+    width:1450px;
+    height:600px;
+}
+
+.image{
+    display: inline-block;
+    position: relative;
+    width:48%;
+    height:250px ;
+    box-shadow: 0 15px 18px 0 rgba(226, 32, 32, 0.16);
+    background-color:rgb(192, 176, 176);
+    margin:12px;
+
+}
+
+.image >img {
+    width:500px;
+    height:250px;
+    margin: 0 29px 0 0;
+}
+
+.cars{
+    position:absolute ;
+    top:10px;
+    right:50px;
+    width: 137px;
+}
+.cars >h3{
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color:#192f60;
+}
+
+.car >p{
+    font-family: poppins;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color:#ab8c9c;
+}
